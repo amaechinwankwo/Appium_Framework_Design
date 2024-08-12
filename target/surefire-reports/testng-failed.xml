@@ -5,17 +5,12 @@
     <listener class-name="org.dandytech.TestUtils.Listeners"/>
   </listeners>
   <test thread-count="5" name="End to end Framework Test(failed)" verbose="0">
-    <groups>
-      <run>
-        <include name="Smoke"/>
-      </run>
-    </groups>
     <classes>
       <class name="org.dandytech.E_Commerce_tc_4_Hybrid">
         <methods>
           <include name="tearDown"/>
           <include name="ConfigureAppium"/>
-          <include name="FillForm"/>
+          <include name="FillForm" invocation-numbers="0"/>
         </methods>
       </class> <!-- org.dandytech.E_Commerce_tc_4_Hybrid -->
     </classes>

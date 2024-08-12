@@ -17,7 +17,7 @@ public class ExtentReporterNG {
 
 		ExtentSparkReporter reporter = new ExtentSparkReporter(path);
 
-		reporter.config().setReportName("Web Automation Results");
+		reporter.config().setReportName("Appium Automation Results");
 
 		reporter.config().setDocumentTitle("Test Results");
 
